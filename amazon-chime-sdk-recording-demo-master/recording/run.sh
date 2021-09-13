@@ -42,6 +42,8 @@ cat <<EOF >> /tmp/foo4/prefs.js
 user_pref("media.autoplay.default", 0);
 user_pref("media.autoplay.enabled.user-gestures-needed", false);
 user_pref("media.navigator.permission.disabled", true);
+user_pref("media.getusermedia.audiocapture.enabled", true);
+user_pref("media.navigator.enabled", true);
 user_pref("media.gmp-gmpopenh264.abi", "x86_64-gcc3");
 user_pref("media.gmp-gmpopenh264.lastUpdate", 1571534329);
 user_pref("media.gmp-gmpopenh264.version", "1.8.1.1");
